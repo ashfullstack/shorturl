@@ -500,5 +500,7 @@ app.post("/shorten", (req, res) => {
 
 
 // Start the server
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+// const PORT = process.env.PORT || 3000;
+// app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+
+app.listen('https://shorturl-b9s8.onrender.com')
