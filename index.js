@@ -475,7 +475,7 @@ app.post("/shorten", (req, res) => {
         }
 
         const fullShortUrl = `${baseUrl}/${customShortUrl}`;
-        return res.render("/", {
+        return res.render("new", {
           shortUrl: fullShortUrl,
           error: null,
         });
