@@ -287,7 +287,7 @@ app.get("/:shortUrl", (req, res) => {
 
 
 //const baseUrl = "https://shorturl-b9s8.onrender.com"; // Base URL for short links
-const baseUrl = "https://www.urlshortner.sbs"; // Base URL for short links
+const baseUrl = "urlshortner"; // Base URL for short links
 
 // app.post("/shorten", (req, res) => {
 //   const originalUrl = req.body.originalUrl;
